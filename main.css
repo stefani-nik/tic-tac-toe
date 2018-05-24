@@ -1,0 +1,80 @@
+body {
+    background: #8360c3;
+    background: -webkit-linear-gradient(to right, #2ebf91, #8360c3); 
+    background: linear-gradient(to right, #2ebf91, #8360c3);
+
+}
+
+h1{
+    text-align: center;
+    font-family: Arial;
+    text-transform: uppercase;
+    color: #19191b;
+    font-size: 3.5rem;
+    letter-spacing: 0.2rem;
+}
+
+hr{
+    width: 70%;
+    margin : 0 auto;
+    color: #19191b;
+    border: 2px dashed;
+}
+.board-container{
+    width: 100%;
+    margin-top : 3.0rem;
+}
+
+.board {
+    width: 354px;
+    height: 354px;
+    background-color:none;
+    border-spacing:0;
+    margin: 0 auto;
+    border-collapse: collapse;
+    border-style: hidden;
+}
+td {
+    height: 116px;
+    width: 116px;
+    text-align: center;
+    font-family: Arial;
+    font-size: 4.0rem;
+    font-weight: bold;
+    border: 3px solid #19191b;
+    text-transform: uppercase;
+    color: #19191b;
+}
+
+.restart-btn{
+    width: 354px;
+    margin : 0 auto;
+    padding-top: 2.5rem;
+}
+button {
+    width: 100%;
+	background-color:#19191b;
+    border: none;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+    font-size:17px;
+    font-weight: bold;
+    letter-spacing: 0.4rem;
+    text-transform: uppercase;
+	padding:16px 31px;
+}
+button:hover {
+    background-color:#2e3233;
+}
+
+.message{
+    width: 354px;
+    margin: 0 auto;
+    padding-top: 2.0rem;
+    font-size: 3.4rem;
+    font-weight: bold;
+    text-align: center;
+    font-style: italic;
+}
